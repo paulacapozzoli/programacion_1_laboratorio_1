@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1553040969 source:d:\capozzoli\horasalgoritmo\main.c
+	<stdio.h>
+	<stdlib.h>
+
