@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1554161775 source:d:\capozzoli\programacion_1_laboratorio_1\clase_05\ejercicio\arraycargaaleatoria\main.c
+	<stdio.h>
+	<stdlib.h>
+
