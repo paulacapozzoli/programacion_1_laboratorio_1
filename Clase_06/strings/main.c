@@ -37,7 +37,27 @@ void main(void){
     strcpy(texto2,texto1);1er argumento, si o si debe ser una var, y no constante, el 2do argumento lo asigna a lo que està a la izq(la variable mencionada primero)
 
     printf("Se ingreso:%s la copia es:%s",texto1,texto2);
-}*/
+}
+
+strcpy (a la derecha puede haber variable o constante, a la izq solo variable)
+
+puts (me sirve solo para mostrar de forma literal) no muestra combinado texto y variable
+
+usamos printf que es màs completo que el puts que solo muestra el contenido de la variable
+
+
+al tener enter se debe limpiar el buffer
+
+fflush(stdin);
+printf ("%s", saludo);
+printf ("El saludo diciendo %s", saludo);
+printf ("El dijo Hola");
+
+como tomo el dato por teclado?
+
+scanf("%s", nombre); sin & porque es un vector (porque nombre equivale a &nombre[0])
+
+*/
 
 #define MAX 10
 void main(void){
