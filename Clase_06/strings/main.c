@@ -76,7 +76,15 @@ donde tiene que cortar el ingreso y que no se
 imprima cualquier cosa en memoria, si sigo escribiendo
 más de la cantidad indicada, se rompe el sistema.
 
+char saludo[10]="hola"; (aca el terminador va implicito)
+char saludo[10]={'h','o','l','a','\0'}; aca como es caracter a caracter debo poner el finalizador de forma explicita
+char saludo[ ]="hola";
+char menu [ ][3]={"Archivo","Nuevo","Abrir"};son 3 menu de x cant de caracteres c/u
 
+al existir vector, no puedo decir
+saludo="hola"; esta mal porque es un vector, solo
+se hace al momento de declarar donde se va a guardar
+ese vector (en la variable, al declararla)
 
 
 
