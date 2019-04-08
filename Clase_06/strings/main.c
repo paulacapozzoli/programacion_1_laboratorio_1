@@ -8,6 +8,7 @@
 
     printf("\nNombre: %s ",texto);
 }
+
 void main(void){
 
     char texto[20];
@@ -16,6 +17,8 @@ void main(void){
 
     printf("\nNombre: %s ",texto);
 }
+
+COMPARAR
 void main(void){
 
     char texto[20];
@@ -27,6 +30,38 @@ void main(void){
     else
         printf("Password incorrecto");
 }
+
+*si ambas cadenas comparadas son iguales, devuelve 0
+*si la primera es menor a la segunda, devuelve <0
+*si la primera es mayor a la segunda, devuelve >0
+*
+*siempre la comparacion va de la primera cadena
+*a la segunda
+*una cadena es mayor a otra, en cuanto al orden alfabetico
+*
+*"hoja" y "hola" va caracter por caracter, moviendose a los siguientes
+*hasta que encuentra que la j es menor que la l (porque j esta antes que la l
+*por orden alfabetico
+*
+*"zoe" "zapato" en el segundo lugar a es mas
+*pequeña que o con lo cual es independiente a
+*la cantidad de letras porque al ordenarlo
+*alfabeticamente, primero va zapato y despues zoe
+
+*en la tabla de alt, se compara en funcion al nro
+*en el que se encuentra el caracter:
+*'a' 97
+*'A' 65
+
+por eso las cadenas de caracteres en mayusculas
+son menores (mas pequeñas) que las cadenas de
+caracteres en minusculas
+
+strcmp es sensible a mayusculas y minusculas
+strupr(nombre); convierte cadena completa a mayusculas
+strlwr(nombre); convierte cadena completa a minusculas
+**************************
+
 void main(void){
 
     char texto1[20];
@@ -65,10 +100,10 @@ void main(void){
     char vec[MAX];
     int i,x;
 
-    printf("\ningrese nombre: ");
+    printf("\nIngrese nombre: ");
     gets(vec);
     x=strlen (vec);
-    printf("\nla cantidad de letras es: %d ",x);
+    printf("\nLa cantidad de letras es: %d ",x);
 }
 
 /*
