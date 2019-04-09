@@ -69,7 +69,10 @@ void main(void){
     printf("\nIngrese una palabra: ");
     gets(texto1);
 
-    strcpy(texto2,texto1);1er argumento, si o si debe ser una var, y no constante, el 2do argumento lo asigna a lo que està a la izq(la variable mencionada primero)
+    strcpy(texto2,texto1);
+    1er argumento, si o si debe ser una var, y no constante,
+    el 2do argumento lo asigna a lo que està a la izq
+    (la variable mencionada primero)
 
     printf("Se ingreso:%s la copia es:%s",texto1,texto2);
 }

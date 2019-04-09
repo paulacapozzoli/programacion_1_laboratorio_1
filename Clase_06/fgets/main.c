@@ -14,7 +14,8 @@ int main()
     sizeof: es un operador binario que recibe un tipo de dato o variable
     y nos dice la cant de bytes que ocupa el tipo de dato o la variable
     (buffer)-2: asegura que puedo escribir solo hasta 62 caracteres
-    stdin: es el standard de teclado, le indica ¿desde donde trabajo todo esto?
+    stdin: es el standard de teclado, le indica ¿desde donde trabajo
+    todo esto?
     */
 
     cantidad = strlen(buffer);//strlen devuelve cantidad de caracteres que tiene una cadena, sin contar el finalizador, y lo asigna a 'cantidad'
